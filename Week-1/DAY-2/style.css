@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header , section{
+  padding: 20px;
+}
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head .head-right ul {
+  display: flex;
+  gap: 10px;
+}
+.head .head-right ul li {
+  list-style-type: none;
+}
+section .heo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+section .fullname{
+    display: flex;
+}
+section .heo .heo-left a{
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 5px;
+    background-color: white;
+    border-color: transparent; 
+}
+.heo-left h1{
+    padding: 17px 0;
+}
+.heo-wrap{
+    background-color: cornflowerblue;
+}
+.heo-right{
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+.heo-left{
+    color: white;
+}
