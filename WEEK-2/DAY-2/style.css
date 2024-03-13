@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ubuntu, sans-serif;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.art {
+  width: 100%;
+  height: 90vh;
+  background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/311ebf9ec39a5c1f8b8241af/pexelsphoto1927507.jpeg");
+}
+.art h2 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: white;
+}
+.art h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 12rem;
+  font-weight: 700;
+  font-family: Ubuntu, sans-serif;
+}
+.art .art-title {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.school-item {
+  height: 514px;
+  text-align: center;
+  background-color: #7da2a9;
+}
+.school {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+height: 500px;
+  gap: 70px;
+}
+.school .school-left {
+  text-align: end;
+}
+.school .school-left h4 {
+  text-transform: uppercase;
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: white;
+  line-height: 1.1;
+}
+.school .school-left h5 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 25px;
+  padding-top: 10px;
+}
+.school .school-right {
+  text-align: start;
+}
+.school .school-right p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: white;
+}
+.proqram-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.proqram-item {
+  padding: 80px 0;
+  max-width: 55%;
+  text-align: center;
+}
+.proqram-item p {
+  padding: 20px 0;
+}
+.proqram {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.proqram .proqram-title {
+  width: 30%;
+  text-align: start;
+  margin-bottom: 50px;
+}
+.proqram .proqram-title h2 {
+  padding: 30px 0;
+}
+.proqram .proqram-title img {
+  width: 50px;
+  height: 50px;
+}
+.proqram .proqram-title h2 {
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 30px 0 0;
+}
+.proqram .proqram-title p {
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: "Open Sans", sans-serif;
+}
+.create {
+  background-color: #18181e;
+  height: 684px;
+}
+.create .create-left img {
+  width: 560px;
+  height: 500px;
+}
+.create .create-right {
+  color: white;
+}
+.create .create-right h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.875rem;
+line-height: 1.1;
+}
+.create .create-right p{
+    padding: 30px 0 50px;
+}
+.create-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 700px;
+}
+.create .create-right a{
+    background-color: #c6d9dd;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+.gallery{
+    text-align:center;
+    padding: 30px 0;
+}
+.gallery h1{
+    font-size: 1.875rem;
+    line-height: 1.1;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.gallery p{
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 20px 0;
+}
+.gallery .gallery-photo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+.gallery .gallery-photo .galerry-item img{
+    width: 500px;
+    height: 500px;
+}
+.student-title{
+    background-color: #7da2a9;
+    height: 350px;
+}
+.student{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 350px;
+}
+.student-item h4{
+    font-weight: 700;
+    font-size: 1.875rem;
+    line-height: 1.1;
+    color: white;
+}
+.student-item p{
+    font-family: 'Open Sans', sans-serif;
+font-size: 1rem;
+line-height: 1.6;
+padding-top: 10px;
+    color: white;
+}
+.photos{
+    display: flex;
+    align-items: center;
+}
+.photos .photos-img {
+    width: 33%;
+    
+}
+.photos .photos-img img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
