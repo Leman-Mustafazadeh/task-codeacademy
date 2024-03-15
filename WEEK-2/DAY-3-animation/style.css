@@ -1,0 +1,27 @@
+.design{
+    display: flex;
+    align-items: center;
+}
+.design-item i{
+    border: 1px solid rgb(52, 210, 231);
+    background-color: rgb(52, 210, 231);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.design-item a{
+    text-decoration: none;
+    color: rgb(194, 197, 145);
+    padding: 10px 20px;
+}
+.design-item p{
+    padding: 20px 0;
+}
+.design-icon{
+    transform: rotateY(180deg);
+    transition: all .5s ease;
+}
+.design-item:hover .design-icon{
+    transform: rotateY(360deg);
+    transition: all .5s ease;
+}

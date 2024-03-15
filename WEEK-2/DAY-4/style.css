@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: white;
+    padding: 30px 0;
+}
+.logo-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-item ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.hero{
+    background-image: url("https://preview.colorlib.com/theme/consultingbiz/assets/img/hero/h1_hero.jpg.webp");
+    width: 100%;
+    height: 100vh;
+} 
+.hero .hero-item{
+    max-width: 42%;
+    padding-top: 100px;
+}
+.hero .arrow-left{
+    border: 1px solid ghostwhite;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+}  
+.hero .commit{
+    position: relative;
+}
+.hero .commit span{
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+    color: rgb(235, 86, 108);
+}
+.hero .commit span:before{
+    content: "";
+    position: absolute;
+    transform:translateY(-50%);
+
+    width: 70px;
+    color: rgb(235, 86, 108);
+    height: 2px;
+}
+.hero .commit h1{
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    font-family: Sarabun, sans-serif;
+    padding: 30px 0;
+}
+.hero .commit p{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-family: Roboto, sans-serif;
+    padding: 30px 0 50px;
+    line-height: 30px;
+}
+.hero .commit .service{
+
+    position: relative;
+  width: 300px;
+  height: 50px;
+}
+.hero .commit .service a
+{
+    z-index: 1;
+    /* position: relative; */
+    background: rgb(255, 33, 67);
+    padding: 27px 44px;
+    text-transform: uppercase;
+    font-family: Roboto, sans-serif;
+    color: rgb(255, 255, 255);
+    border-radius: 0px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 0;
+    cursor: pointer;
+    
+    text-decoration: none;
+}
+.hero .commit .service::after {
+    content: "";
+    position: absolute;
+    background-color: red;
+    transition: 300ms;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: black;
+   z-index: -1;
+     
+
+}
+.hero .commit .service:hover::after{
+display: flex;
+width: 100%;
+
+}
+
