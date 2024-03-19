@@ -1,0 +1,14 @@
+@import "./utils/mixins";
+@import "./utils/variables";
+@import "./utils/colors";
+@import "layout/header";
+@import "./base/reset";
+@import "./components/container";
+@import "./pages/home";
+
+
+
+
+body{
+    background-color: rgb(216, 208, 208);
+}

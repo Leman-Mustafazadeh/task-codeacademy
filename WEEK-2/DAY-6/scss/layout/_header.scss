@@ -1,0 +1,8 @@
+
+.logo-head{
+   @include flex(flex,space-between,row,center,center);
+   padding: 20px 0;
+}
+.logo-menu i{
+    font-size: 30px;
+}
