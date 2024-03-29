@@ -386,18 +386,32 @@
 
 // TASK36
 // Bir dəyişən təyin edin.Bu dəyişən sizin sözünüz olacaq. O sözün içində neçə sait olduğunu consoleda yazdırın.
-let a = "leman"
-let b =["e","a"];
-let counter=0;
-for (let i = 0; i < a.length; i++) {
-   for (let j = 0; j < b.length; j++) {
-  if(a[i]==b[j]){
-    counter++
-  }
-   }
+// let a = "leman"
+// let b =["e","a"];
+// let counter=0;
+// for (let i = 0; i < a.length; i++) {
+//    for (let j = 0; j < b.length; j++) {
+//   if(a[i]==b[j]){
+//     counter++
+//   }
+//    }
+// }
+// if(counter>0){
+//     console.log(counter);
+// }else{
+//     console.log("false");
+// }
+
+
+const fullName = function getFullName(fname,surname,age,city) {
+ return `${fname} ${surname} is ${age} years old and live in ${city} `;
 }
-if(counter>0){
-    console.log(counter);
-}else{
-    console.log("false");
+fullName(Mustafazade ,Leman,20,Baki)
+
+
+
+// arrow function
+const  getfullName = (fname,surname,age,city) => {
+  console.log(`${fname} ${surname} is ${age} years old and live in ${city} `);
 }
+getfullName(Mustafazade ,Leman,20,Baki)
